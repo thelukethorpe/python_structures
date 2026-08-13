@@ -2,5 +2,12 @@
   "github.copilot.enable": {
     "*": false
   },
-  "github.copilot.inlineSuggest.enable": false
+  "github.copilot.inlineSuggest.enable": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.ruff": "explicit",
+    "source.organizeImports.ruff": "explicit"
+  },
+  "ruff.nativeServer": "on",
+  "ruff.lint.enable": true
 }
